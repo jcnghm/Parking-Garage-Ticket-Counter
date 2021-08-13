@@ -41,4 +41,21 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 
 ###### List group responsiblities below:
+Group - Joshua, Andrew
+
+As a group, we delegated responsibilites over the repository
+Communicated a rough outline on which to proceed based on assingment parameters
+Both team members were actively engaged with each other, communicated and brainstormed through the whole process
+Switched off responsibilites of typing while the other researched online or offered differing ideas 
+
+
+Andrew -  Created git master, managed, accepted and merged pull requests, defined class, list, initialized, run(), assisted joshua in finishing functions
+lines - 1-15
+
+
+Joshua - Forked branch, typed out functions, takeTicket(), payTicket(), leaveGarage(), assisted andrew in finishing run()
+lines - 12-51
+
+
+
 ###### Provide name and approxamite line numbers where each person wrote their code
