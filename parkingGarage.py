@@ -40,32 +40,24 @@ class Garage():
         if self.currentTicket == True:
             print('Thank you, have a nice day!')
             self.capacity += changed_capacity
+        elif self.currentTicket == False:
+            print('You must pay before leaving!')
 
-        
 
-
-
-car = Garage(10, [1,2,3,4,5,6,7,8,9,10])
-
+car = Garage(10, [1,2,3,4,5,6,7,8,9,10],)
 
 
 def run():
     while True:
         response = input('What would you like to do? (Enter, Pay, or Leave)')
-
         if response.lower() == 'enter':
             car.takeTicket()
         elif response.lower() == 'pay':
             car.payTicket()
         elif response.lower() == 'leave':
-            if car.currentTicket == False:
-                print('You must pay before leaving!')
-            elif car.currentTicket == True:
-                car.leaveGarage()
+            car.leaveGarage()
             
-                
-               
-        
+                    
 run()
 
 
