@@ -1,5 +1,5 @@
    
-# Parking Garage Group Project
+# Parking Garage Ticket Counter
 
 class Garage():
 
